@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-image: url('src/assets/images/bg-01.jpg'); /* Đường dẫn đến ảnh nền */
+  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ khu vực */
+  background-position: center; /* Đặt ảnh nền ở giữa */
+  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  height: 100vh; /* Đặt chiều cao của login-container bằng chiều cao của cửa sổ trình duyệt */
+  width: 100%; /* Đặt chiều rộng của login-container bằng chiều rộng của cửa sổ trình duyệt */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.signup-link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
